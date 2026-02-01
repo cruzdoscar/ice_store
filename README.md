@@ -5,7 +5,7 @@ El **Proyecto Ice Store** es un análisis exhaustivo de las ventas de videojuego
 ## Preparación de datos
 Para garantizar la calidad y la fiabilidad de nuestro análisis, comenzamos con una rigurosa preparación de datos. El conjunto de datos incluía información sobre nombres de juegos, plataformas, años de lanzamiento, géneros, ventas en diversas regiones y puntuaciones de usuarios y críticos.
 
-![Información del DataFrame](df_info.png)
+![Información del DataFrame](gráficos/df_info.png)
 
 Una de las observaciones iniciales fue la presencia de valores faltantes en las columnas críticas:
 
@@ -14,7 +14,7 @@ Una de las observaciones iniciales fue la presencia de valores faltantes en las 
 
 Dada la considerable cantidad de datos faltantes, decidimos no imputar valores para evitar sesgos. En su lugar, preservamos la integridad de los datos dejando los valores *NaN* sin cambios, lo que permitió un análisis más transparente.
 
-![Conteo de valores nulos](count.png)
+![Conteo de valores nulos](gráficos/count.png)
 
 También realizamos los siguientes ajustes:
 
@@ -31,9 +31,7 @@ Analizar el número de lanzamientos de videojuegos por año proporciona informac
 - **2001-2010:** Esta década experimentó un auge sustancial, especialmente alrededor de 2008 y 2009, impulsado por plataformas como PlayStation 2, Xbox 360 y Nintendo Wii. Este pico destaca un período de rápido crecimiento en la industria de los videojuegos.
 - **2011-2016:** Se observó un ligero descenso en el lanzamiento de videojuegos, probablemente debido a la saturación del mercado y a una transición hacia los juegos móviles y la distribución digital.
 
-<p align="center">
-  <img src="juegos.png" width="400" title="Juegos lanzados por año">
-</p>
+![Juegos lanzados por año](gráficos/juegos.png)
 
 Estas tendencias resaltan cómo los avances tecnológicos y la dinámica del mercado han moldeado la producción de videojuegos a lo largo de los años.
 
@@ -44,18 +42,14 @@ El análisis también examinó las plataformas más populares y la duración de 
 - **Wii y PS3** mantuvieron una vida útil significativa de aproximadamente 10 años.
 - Plataformas como **PS4**, introducidas posteriormente en el conjunto de datos, mostraron una duración observada más corta, principalmente debido al corte de datos en 2016.
 
-<p align="center">
-  <img src="lifepan.png" width="400" title="Tiempo de vida de diferentes plataformas">
-</p>
+![Tiempo de vida de diferentes plataformas](gráficos/lifepan.png)
 
 Comprender estas tendencias del ciclo de vida es esencial para identificar qué plataformas pueden ofrecer oportunidades de venta sostenidas para futuros lanzamientos de juegos.
 
 ### Géneros de juegos principales
 El conjunto de datos reveló la distribución de los géneros de juegos, donde los juegos de **Acción** dominan el panorama, representando el 20,11% de todos los lanzamientos. Les siguen los juegos de **Deportes**, con el 14,02%. Otros géneros destacados incluyen **Juegos de Rol y Disparos**
 
-<p align="center">
-  <img src="genres.png" width="400" title="Juegos lanzados por género">
-</p>
+![Juegos lanzados por género](gráficos/genres.png)
 
 Curiosamente, géneros de nicho como los juegos de **Estrategia y Rompecabezas** mostraron una popularidad significativa en regiones como Japón, lo que refleja las preferencias del mercado local.
 
@@ -67,9 +61,7 @@ Un análisis más detallado de los lanzamientos de juegos por plataforma revela 
 - Plataformas como **PS3, Wii y Xbox 360** también presentaron una cantidad considerable de lanzamientos, lo que subraya su relevancia durante sus años de auge.
 - El menor número de lanzamientos para plataformas como **Sega Dreamcast (DC) y PC-FX** refleja su menor vida útil o su atractivo para nichos de mercado.
 
-<p align="center">
-  <img src="platforms.png" width="400" title="Juegos lanzados por plataforma">
-</p>
+![Juegos lanzados por plataforma](gráficos/platforms.png)
 
 Comprender la distribución de las clasificaciones de juegos es esencial para adaptar el desarrollo y las estrategias de marketing a públicos específicos. El gráfico que detalla el número de juegos por clasificación revela lo siguiente:
 
@@ -78,9 +70,7 @@ Comprender la distribución de las clasificaciones de juegos es esencial para ad
 - Las clasificaciones **"T" (Adolescentes) y "M" (Maduro)** también representaron una parte sustancial del conjunto de datos, lo que refleja un mercado diverso que atiende a públicos de mayor edad.
 - Las clasificaciones de nicho como **"AO" (Solo adultos) y "KA" (Niños a adultos)** tuvieron una representación mínima, en consonancia con las prácticas de la industria que favorecen los juegos para un público más amplio para maximizar el alcance del mercado.
 
-<p align="center">
-  <img src="rating.png" width="400" title="Juegos lanzados por rating">
-</p>
+![Juegos lanzados por rating](gráficos/rating.png)
 
 Estos hallazgos sugieren que centrarse en juegos con clasificación **"E" y "T"** podría ser estratégicamente beneficioso para llegar a una amplia base de consumidores, a la vez que se integran géneros atractivos para el público adulto en campañas más específicas.
 
@@ -104,9 +94,7 @@ Los 10 videojuegos más vendidos del conjunto de datos destacaron a los claros g
 - **"Grand Theft Auto V"**, conocido por su amplia jugabilidad y su amplio alcance, demostró cómo los juegos para adultos pueden alcanzar grandes ventas.
 - **"Mario Kart Wii"** y otros títulos de la franquicia Mario subrayaron la perdurable popularidad de los juegos familiares de Nintendo.
 
-<p align="center">
-  <img src="top_10.png" width="400" title="Los 10 videojuegos más vendidos">
-</p>
+![Los 10 videojuegos más vendidos](gráficos/top_10.png)
 
 Estos juegos estrella compartían características comunes: un fuerte reconocimiento de marca, disponibilidad multiplataforma o una jugabilidad innovadora que atraía a un público amplio. Para los actores de la industria de los videojuegos, centrarse en títulos que puedan emular estas exitosas características podría generar ganancias lucrativas.
 
@@ -118,9 +106,7 @@ El desglose regional de las ventas por plataforma ofrece una visión matizada de
 - **Europa: La PS3** lideró las ventas, seguida de la **Xbox 360 y la Wii**, lo que refleja una competencia equilibrada entre estas plataformas. La presencia de la **Wii** en el top 5 refuerza el atractivo de los juegos interactivos y para toda la familia en la región.
 - **Japón:** **Nintendo** dominó el mercado con las **DS y 3DS**, lo que pone de relieve la gran popularidad de los juegos portátiles. Las plataformas **PlayStation (PSP, PS3)** también tuvieron un buen rendimiento, lo que subraya la importante presencia de Sony en el mercado japonés.
 
-<p align="center">
-  <img src="top5_platforms.png" width="400" title="Ventas por plataforma regional">
-</p>
+![Ventas por plataforma regional](gráficos/top5_platforms.png)
 
 Estos gráficos ofrecen información clave para definir estrategias de marketing específicas para cada plataforma, considerando las preferencias regionales que históricamente han determinado el rendimiento de las ventas. Comprender estas tendencias ayuda a identificar en qué plataformas centrarse para las campañas regionales, maximizando así el impacto en Norteamérica, Europa y Japón.
 
@@ -133,9 +119,7 @@ Comprender los géneros de juegos más populares en diferentes regiones proporci
 - **Europa:** Al igual que en Norteamérica, los juegos de **Acción** dominaron las ventas, seguidos de cerca por los de **Deportes y Disparos**. Esto sugiere que los mercados europeo y norteamericano comparten gustos similares en cuanto a juegos, lo que facilita la planificación de estrategias de marketing interregionales. 
 - **Japón:** El género de **rol (RPG)** lideró las ventas con un margen significativo, mostrando una clara preferencia regional por los juegos con una historia centrada en los personajes. Los juegos de **Acción y Varios** también tuvieron un buen desempeño, mientras que los juegos de **Deportes y Plataformas** contribuyeron con una participación menor, pero notable.
 
-<p align="center">
-  <img src="top5_genres.png" width="400" title="Géneros Principales por Ventas Regionales">
-</p>
+![Géneros Principales por Ventas Regionales](gráficos/top5_genres.png)
 
 Estos hallazgos resaltan la importancia de las estrategias específicas para cada región al planificar lanzamientos de juegos y campañas de marketing. Por ejemplo, centrarse en los juegos **RPG**** en Japón y promocionar juegos de **Acción y Deportes** en los mercados occidentales podría maximizar el potencial de ventas.
 
