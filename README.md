@@ -140,6 +140,10 @@ Estas recomendaciones buscan alinear las nuevas estrategias de desarrollo y mark
 # Conclusión
 El análisis del Proyecto Ice Store sobre las ventas de videojuegos de 1980 a 2016 proporciona una base sólida para comprender la dinámica de la industria del videojuego. Al centrarse en plataformas populares, aprovechar los géneros más populares y adaptar las estrategias a las preferencias regionales, las partes interesadas pueden optimizar su estrategia de lanzamiento y marketing de juegos. Esta estrategia basada en datos allana el camino para un posicionamiento más sólido en un mercado competitivo, impulsando el crecimiento sostenido y la participación de los jugadores.
 
-Haga clic aquí para explorar el análisis completo y los detalles técnicos del Proyecto Ice Store. Aquí encontrará el Jupyter Notebook completo con código, visualizaciones y explicaciones detalladas de las metodologías y los conocimientos adquiridos a lo largo del proyecto.
+Haga clic en el siguiente botón para explorar el análisis completo y los detalles técnicos del Proyecto Ice Store.
 
 [![Ver Proyecto](https://img.shields.io/badge/VER_PROYECTO-blue?style=for-the-badge&logo=github)](https://github.com/cruzdoscar/ice_store/blob/main/EDA_videojuegos.ipynb)
+
+> [👉 Ver el análisis técnico detallado aquí](https://github.com/cruzdoscar/ice_store/blob/main/EDA_videojuegos.ipynb))
+
+Aquí encontrará el Jupyter Notebook completo con código, visualizaciones y explicaciones detalladas de las metodologías y los conocimientos adquiridos a lo largo del proyecto.
