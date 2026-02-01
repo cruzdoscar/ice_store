@@ -144,6 +144,4 @@ Haga clic en el siguiente botón para explorar el análisis completo y los detal
 
 [![Ver Proyecto](https://img.shields.io/badge/VER_PROYECTO-blue?style=for-the-badge&logo=github)](https://github.com/cruzdoscar/ice_store/blob/main/EDA_videojuegos.ipynb)
 
-> [👉 Ver el análisis técnico detallado aquí](https://github.com/cruzdoscar/ice_store/blob/main/EDA_videojuegos.ipynb))
-
 Aquí encontrará el Jupyter Notebook completo con código, visualizaciones y explicaciones detalladas de las metodologías y los conocimientos adquiridos a lo largo del proyecto.
