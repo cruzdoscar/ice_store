@@ -2,7 +2,7 @@
 
 El **Proyecto Ice Store** es un análisis exhaustivo de las ventas de videojuegos desde 1980 hasta 2016. Este proyecto busca descubrir las tendencias y los factores que influyeron en el éxito de los videojuegos a lo largo de las décadas. Centrándose en las reseñas de usuarios y expertos, la popularidad de las plataformas y la distribución de géneros, el análisis sienta las bases para planificar una estrategia de marketing eficaz para 2017. Al comprender estas tendencias, podemos anticipar qué tipos de juegos y plataformas podrían tener más éxito el próximo año.
 
-## Preparación de datos
+## 1. Limpieza: Tratamiento de nulos y duplicados
 Para garantizar la calidad y la fiabilidad de nuestro análisis, comenzamos con una rigurosa preparación de datos. El conjunto de datos incluía información sobre nombres de juegos, plataformas, años de lanzamiento, géneros, ventas en diversas regiones y puntuaciones de usuarios y críticos.
 
 ![Información del DataFrame](gráficos/df_info.png)
@@ -23,7 +23,9 @@ También realizamos los siguientes ajustes:
 
 Este enfoque mantuvo la autenticidad del conjunto de datos y facilitó un análisis más preciso.
 
+## 2. EDA: Análisis exploratorio de tendencias anuales y por plataforma.
 ### Tendencias en los lanzamientos de videojuegos
+
 Analizar el número de lanzamientos de videojuegos por año proporciona información valiosa sobre la evolución de la industria de los videojuegos. Los datos muestran tendencias distintivas a lo largo de diferentes décadas:
 
 - **1980-1990:** Este período inicial marcó el inicio de la industria de los videojuegos, con un número relativamente bajo, pero constante, de lanzamientos de videojuegos. El aumento gradual refleja la adopción inicial de la tecnología de videojuegos.
@@ -101,6 +103,7 @@ Estos juegos estrella compartían características comunes: un fuerte reconocimi
 ### Información de ventas mejorada y juegos más vendidos
 El desglose regional de las ventas por plataforma ofrece una visión matizada de las preferencias de los consumidores en los principales mercados de videojuegos:
 
+## 3. Profiling: Creación de perfiles de usuario por región.
 ### Ventas por plataforma regional
 - **Norteamérica:** La **Xbox 360** se convirtió en líder, seguida de cerca por la **Wii y PS3**, lo que ilustra una fuerte preferencia por plataformas que ofrecían catálogos de juegos versátiles y una jugabilidad innovadora.
 - **Europa: La PS3** lideró las ventas, seguida de la **Xbox 360 y la Wii**, lo que refleja una competencia equilibrada entre estas plataformas. La presencia de la **Wii** en el top 5 refuerza el atractivo de los juegos interactivos y para toda la familia en la región.
@@ -139,4 +142,4 @@ El análisis del Proyecto Ice Store sobre las ventas de videojuegos de 1980 a 20
 
 Haga clic aquí para explorar el análisis completo y los detalles técnicos del Proyecto Ice Store. Aquí encontrará el Jupyter Notebook completo con código, visualizaciones y explicaciones detalladas de las metodologías y los conocimientos adquiridos a lo largo del proyecto.
 
-https://github.com/cruzdoscar/ice_store/blob/main/EDA_videojuegos.ipynb
+[![Ver Proyecto](https://img.shields.io/badge/VER_PROYECTO-blue?style=for-the-badge&logo=github)](https://github.com/cruzdoscar/ice_store/blob/main/EDA_videojuegos.ipynb)
